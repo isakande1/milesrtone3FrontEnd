@@ -1,0 +1,142 @@
+/* navbar */
+.navbar {
+  background-color:lightcoral;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.p, .li{
+  font-family: sans-serif;
+  line-height: 15px;
+
+}
+.menu{
+  list-style-type: none;
+  display:grid;
+  justify-content: end;
+  grid-template-columns: 85px 75px 100px; 
+  
+
+}
+.menuOption{
+  
+}
+.optionSearch{
+  display: flex;
+  justify-content: center;
+}
+/* Landingpages */
+.paragraph,.paragraphgenre{
+  margin:0px;
+}
+.App{
+  display : grid;
+  grid-template-columns:  1fr 1fr;
+}
+
+.halfSide{  
+  display :grid;
+  row-gap:5px;
+}
+
+.detailsRowFilm{
+  margin: 5px;
+}
+/* .queryRowsFilm::after{
+  box-shadow: 2px 2px black;
+
+} */
+p{
+  font-family: sans-serif;
+}
+.paragraphDetails, .paragraphDetailsgenre{
+  margin: 0px;
+  font-size: 12px;
+}
+.customerForm, .rentToCustomer, .returnedRent{
+  margin-top: 60px;
+  display: grid;
+  width:200px;
+}
+.paragraphgenre, .paragraphDetailsgenre{
+  padding-left: 10px;
+}
+.filmdetails{
+  background-color:purple;
+  width: 100%;
+}
+ul{
+  /* width: 80%; */
+  background-color:lightblue;
+} 
+.queryRowsDetailsF{
+  width: 100%;
+  display:grid;
+  grid-template-columns: 1fr 1fr  1fr ;
+}
+.queryRowsalldetails{
+  width: 100%;
+  display:grid;
+  grid-template-columns: 0.75fr 1.5fr  0.75fr 0.5fr 1.75fr 0.5fr 1.75fr ;
+}
+.queryRowsDetails{
+  margin-left: 5px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+    width: 49%; 
+  /* background-color:orangered; */
+  height:25px; 
+}
+.queryRowsFilm{
+  cursor: pointer;
+  border: 1px solid gray;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 3fr;
+  width: 50%;
+  /* background-color: yellow; */
+  height:25px;
+}
+.queryRowsCustomers{
+  cursor: pointer;
+  border: 1px solid gray;
+  display:grid;
+  grid-template-columns: 0.5fr 0.5fr 0.75fr  0.75fr 2fr  0.5fr 0.5fr 2fr 2fr ;
+
+  /* background-color: yellow; */
+  height:25px;
+}
+.queryavailableMovies{
+  width: 45%;
+  border: 1px solid gray;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+.queryRowsActor{
+  cursor: pointer;
+  border: 1px solid gray;
+  width: 90%;
+}
+.queryRowsActor, .detailsRow{
+  margin-left: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height:25px;
+}
+
+.queryRowsFilm::after{
+  content: '';
+  box-shadow: rgb(34, 32, 32);
+}
+
+.listAllCustomers{
+  margin-top : 50px;
+  width: 200px;
+  height: 35px;
+}
+
+.rentalPage{
+  display: grid;
+  grid-template-columns: 20fr 0.5fr ;
+
+}
